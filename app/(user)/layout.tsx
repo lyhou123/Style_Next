@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "@/app/globals.css";
 import { inter, suwannaphum, localCustomFont } from "./font";
+import { Metadata } from "next";
 export default function RootLayout({
   children,
 }: Readonly<{
